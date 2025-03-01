@@ -25,7 +25,11 @@ ipconfig
 ### STEP # 5
 log req.ip (make sure all computer internet are same)
 
-```import express from "express";
+### STEP # 6
+.gitignore (folder) and add node_modules
+
+```
+import express from "express";
 const app = express();
 const port = 3000;
 
